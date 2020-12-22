@@ -1,0 +1,91 @@
+/* Title elements */
+
+#title {
+display:flex;
+flex-shrink: 3;
+}
+#logo {
+    background: url(K-works-etsy.jpg) center;
+    background-size: contain;
+}
+.flex {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.right {
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+h1 {
+    align-items: center;
+}
+/* nav bar / dropdown menu */
+
+li.dropdown {
+display: inline-block;
+font-size: 40px;
+}
+
+.dropbtn {
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family:'Anton', sans-serif;
+}
+
+li {
+    float: left;
+    padding: 1px 10px
+}
+
+li a {
+}
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(73, 73, 73);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
