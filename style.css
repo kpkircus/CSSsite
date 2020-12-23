@@ -1,153 +1,61 @@
-/* Title elements */
+/* index tags */ 
 
-#title {
-display:flex;
-flex-shrink: 3;
-}
-#logo {
-    background: url(K-works-etsy.jpg) center;
-    background-size: contain;
+nav, a, ul, p  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
 }
 
-.banner {
-        margin: auto;
-        width: 75%;
-        padding: 10px 200px;
-      }
+.BG {
+    opacity: 0.2;
+}
 
-.flex {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    
+div > p {
+    color: white;
+}
+
+.banner{
+margin: auto;
+padding: 10px;
+width: 100%;
+max-height: 750px;
 }
 
 .flexfoot {
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 10px
-}
-
-h1 {
-    align-items: center;
-}
-/* nav bar / dropdown menu */
-
-li.dropdown {
-display: inline-block;
-font-size: 40px;
-}
-
-.dropbtn {
-
-}
-ul {
+    color: black;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    font-family:'Anton', sans-serif;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+   font-size: 30px;
 }
 
-li {
-    float: left;
-    padding: 1px 10px
-}
+/* gallery tags */
 
-li a {
-}
-li a, .dropbtn{
-    display: inline-block;
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-}
-
-li.dropdown {
-    display: inline-block;
-    justify-content: flex-end;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(73, 73, 73);
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-p {
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Russo One', sans-serif;
-}
-
-.right {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    margin-left: auto;
-}
-.left {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
-
-/* Gallery tags */
-
-.gallery {
-    display: flex;
-    justify-content: space-evenly;
+.slide{
+    display: inline-flex;
+    padding: 1em;
+    max-height: 750px;
+    width: 100%;
+   
     }
-
-.gallery-list{
-    list-style-type: none;
-    margin: 20px;
-    padding: 0;
-    justify-content: space-evenly;
-    overflow: hidden;
-    background-color: white;
-    font-family:'Anton', sans-serif;
-}
-.slide {
-    max-width: 30%;
-    max-inline-size: 25%;
-    flex-direction: row;
-}
 
 .gif{
     display: flex;
-    flex-direction: row;
+    Margin: auto;
+    padding: 10px;
     width: 25%;
-    margin: auto;
 }
 
-.caption {
-    padding: 5px 1px 100px 1px;
-}
+.BG-IMG {
+        background-position: center 100%;
+        background-size: 100% 100%;
+        padding-top: 20em;
+        padding-bottom: 20em;
+    }
 
-/* Background tags */
+    /* about tags */
 
-.background {
-display: flex;
-
-}
+    .about {
+        color: black;
+        text-justify: auto;
+    }
